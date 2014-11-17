@@ -50,7 +50,7 @@ function losefocus() {
 
 <script type="text/javascript">
 var l23499421855907669Data = [
-{attributes:{"id":"0" , },data:{"title":"Primer", attributes:{}}, children: [ {attributes:{href:"#top","id":"1"},data:{"title":"Purpose", attributes:{}}},{attributes:{"id":"2"},data:{"title":"Introduction", attributes:{}}},{attributes:{"id":"3"},data:{"title":"Organizational Structure", attributes:{}}},{attributes:{"id":"4"},data:{"title":"Financial Structure", attributes:{}}, children: [ {attributes:{"id":"5"},data:{"title":"RDTE, Appropriation", attributes:{}}, children: [ {attributes:{"id":"6"},data:{"title":"Army Management Structure Code", attributes:{}}},{attributes:{"id":"10"},data:{"title":"Appropriation", attributes:{}}},{attributes:{"id":"11"},data:{"title":"Budget Activity", attributes:{}}},{attributes:{"id":"12"},data:{"title":"Program Element", attributes:{}}},{attributes:{"id":"13"},data:{"title":"Project", attributes:{}}},{attributes:{"id":"14"},data:{"title":"Task", attributes:{}}},{attributes:{"id":"20"},data:{"title":"Management Decision Package", attributes:{}}} ] },{attributes:{"id":"21"},data:{"title":"Operations and Maintenance", attributes:{}}},{attributes:{"id":"22"},data:{"title":"Reimbursable Customer Funds", attributes:{}}},{attributes:{"id":"23"},data:{"title":"Direct Cite Funds", attributes:{}}},{attributes:{"id":"24"},data:{"title":"Overhead", attributes:{}}} ] },{attributes:{"id":"25"},data:{"title":"Recurring Financial Processes", attributes:{}}, children: [ {attributes:{"id":"26"},data:{"title":"Program and Budget Processes", attributes:{}}, children: [ {attributes:{"id":"27"},data:{"title":"POM", attributes:{}}},{attributes:{"id":"28"},data:{"title":"RDDS", attributes:{}}},{attributes:{"id":"29"},data:{"title":"PSM Charts ", attributes:{}}},{attributes:{"id":"30"},data:{"title":"e-Gov", attributes:{}}},{attributes:{"id":"31"},data:{"title":"OMA Summit", attributes:{}}} ] },{attributes:{"id":"32"},data:{"title":"Funds Disto, Exec, Report", attributes:{}}, children: [ {attributes:{"id":"33"},data:{"title":"Funds Distribution", attributes:{}}},{attributes:{"id":"34"},data:{"title":"Execution Reporting", attributes:{}}} ] } ] },{attributes:{"id":"35"},data:{"title":"Appendices", attributes:{}}, children: [ {attributes:{"id":"36"},data:{"title":"Appendix A - Directorate Descriptions", attributes:{}}},{attributes:{"id":"37"},data:{"title":"Appendix B - Program and Budget Office Briefing ", attributes:{}}},{attributes:{"id":"38"},data:{"title":"Appendix C - Budget Activity Definitions", attributes:{}}},{attributes:{"id":"39"},data:{"title":"Appendix D - Program Elements, Projects, Tasks by Directorate", attributes:{}}},{attributes:{"id":"40"},data:{"title":"Appendix E - Sample Task Description", attributes:{}}},{attributes:{"id":"41"},data:{"title":"Appendix F - Management Decision Package Definitions", attributes:{}}},{attributes:{"id":"42"},data:{"title":"Appendix G - Sample OMA Summit Submission", attributes:{}}},{attributes:{"id":"43"},data:{"title":"Appendix H - Sample ARL Program Objective Memorandum (POM) Brief", attributes:{}}},{attributes:{"id":"44"},data:{"title":"Appendix I - Sampel R\u0026amp;D Descriptive Summary (R2a)", attributes:{}}},{attributes:{"id":"45"},data:{"title":"Appendix J - Sample Professional Staff Member Charts", attributes:{}}},{attributes:{"id":"46"},data:{"title":"Appendix K - OMA  Funding", attributes:{}}} ]}  ]}  ] ;
+{attributes:{"id":"0" , },data:{"title":"Primer", attributes:{}}, children: [ {attributes:{href:"#top","id":"1"},data:{"title":"Purpose", attributes:{}}},{attributes:{"id":"2"},data:{"title":"Introduction", attributes:{}}},{attributes:{"id":"3"},data:{"title":"Organizational Structure", attributes:{}}},{attributes:{"id":"4"},data:{"title":"Financial Structure", attributes:{}}, children: [ {attributes:{"id":"5"},data:{"title":"RDTE, Appropriation", attributes:{}}, children: [ {attributes:{"id":"6"},data:{"title":"Army Management Structure Code", attributes:{}}},{attributes:{"id":"10"},data:{"title":"Appropriation", attributes:{}}},{attributes:{"id":"11"},data:{"title":"Budget Activity", attributes:{}}},{attributes:{"id":"12"},data:{"title":"Program Element", attributes:{}}},{attributes:{"id":"13"},data:{"title":"Project", attributes:{}}},{attributes:{"id":"14"},data:{"title":"Task", attributes:{}}},{attributes:{"id":"20"},data:{"title":"Management Decision Package", attributes:{}}} ] },{attributes:{"id":"21"},data:{"title":"Operations and Maintenance", attributes:{}}},{attributes:{"id":"22"},data:{"title":"Reimbursable Customer Funds", attributes:{}}},{attributes:{"id":"23"},data:{"title":"Direct Cite Funds", attributes:{}}},{attributes:{"id":"24"},data:{"title":"Overhead", attributes:{}}} ] },{attributes:{"id":"25"},data:{"title":"Recurring Financial Processes", attributes:{}}, children: [ {attributes:{"id":"26"},data:{"title":"Program and Budget Processes", attributes:{}}, children: [ {attributes:{"id":"27"},data:{"title":"POM", attributes:{}}},{attributes:{"id":"28"},data:{"title":"RDDS", attributes:{}}},{attributes:{"id":"29"},data:{"title":"Charts ", attributes:{}}},{attributes:{"id":"30"},data:{"title":"e-Gov", attributes:{}}},{attributes:{"id":"31"},data:{"title":"Summit", attributes:{}}} ] },{attributes:{"id":"32"},data:{"title":"Funds Disto, Exec, Report", attributes:{}}, children: [ {attributes:{"id":"33"},data:{"title":"Funds Distribution", attributes:{}}},{attributes:{"id":"34"},data:{"title":"Execution Reporting", attributes:{}}} ] } ] },{attributes:{"id":"35"},data:{"title":"Appendices", attributes:{}}, children: [ {attributes:{"id":"36"},data:{"title":"Appendix A", attributes:{}}},{attributes:{"id":"37"},data:{"title":"Appendix B", attributes:{}}},{attributes:{"id":"38"},data:{"title":"Appendix C", attributes:{}}},{attributes:{"id":"39"},data:{"title":"Appendix D", attributes:{}}},{attributes:{"id":"40"},data:{"title":"Appendix E", attributes:{}}},{attributes:{"id":"41"},data:{"title":"Appendix F - Management Decision Package Definitions", attributes:{}}},{attributes:{"id":"42"},data:{"title":"Appendix G", attributes:{}}},{attributes:{"id":"43"},data:{"title":"Appendix H", attributes:{}}},{attributes:{"id":"44"},data:{"title":"Appendix I", attributes:{}}},{attributes:{"id":"45"},data:{"title":"Appendix J", attributes:{}}},{attributes:{"id":"46"},data:{"title":"Appendix K", attributes:{}}} ]}  ]}  ] ;
 </script>
 
 
@@ -84,33 +84,19 @@ apex.jQuery( document ).ready( function() {
 </span>Purpose:</h2>
 
 <p class=MsoNormal>The purpose of this document is to provide the
-organizational and financial structure of the Army Research Laboratory (ARL)
-and the basic recurring business cycles that drive much of the workload for the
-Program and Budget Office (PBO) administrative and technical staff.</p>
+organizational and financial structure</p>
 
 <h2 style='margin-left:0in;text-indent:0in'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span>Introduction:</h2>
 
-<p class=MsoNormal>ARL is a complex organization that, without stretching the
-term too far, is unique in the Army.  Very few other organizations provide the
-experience necessary to prepare a new employee for the manner in which ARL
-operates.  Even with a background in the research and development arena, many
-employees are overwhelmed by the breadth and scope of ARL’s funding profile and
-operational requirements.  For example, ARL’s core research and development
-funding is divided into 23 program elements and 62 projects and 221 tasks.  The
-sheer volume of data and terminology can be intimidating.  In addition, ARL
-does not receive any funding specifically for General and Administrative
-(G&amp;A) or Indirect Overhead costs.  Much like a private business, this lack
-of a program-wide funding account creates a requirement for ARL to assess an
-overhead charge against all direct labor hours.  This concept is largely
-unfamiliar for the government outside the Army R&amp;D community and creates
+<p class=MsoNormal>
 some challenges when answering requests for information from higher
 headquarters and outside entities.  </p>
 
-<p class=MsoNormal>The primary audience for this document is the PBO staff, but
+<p class=MsoNormal>The primary audience for this document is the staff, but
 others may also find it useful.  This is not intended to be a comprehensive
 compilation of all activities or to provide a step-by-step detailed description
-of how work is accomplished in the PBO.  Rather, its purpose is to provide a
+of how work is accomplished.  Rather, its purpose is to provide a
 basic familiarity with structures and concepts useful for understanding how we
 operate.</p>
 
@@ -141,7 +127,7 @@ the PBO.</p>
 <p class=MsoNormal>&nbsp;</p>
 
 <p class=MsoNormal>Suggested improvements are welcome and should be directed to
-the Chief, PBO.</p>
+the Chief</p>
 <p class=MsoNormal>&nbsp;</p>
 
 
