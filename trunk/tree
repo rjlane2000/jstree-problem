@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:htmldb="http://htmldb.oracle.com" xmlns:apex="http://apex.oracle.com">
+<head>
+
+  <link rel="stylesheet" href="/i/css/apex.min.css?v=4.2.5.00.08" type="text/css" />
+<!--[if IE]><link rel="stylesheet" href="/i/css/apex_ie.min.css?v=4.2.5.00.08" type="text/css" /><![endif]-->
+<link rel="stylesheet" href="/i/libraries/jquery-ui/1.8.22/themes/base/jquery-ui.min.css" type="text/css" />
+
+<script type="text/javascript">
+var apex_img_dir = "/i/", htmldb_Img_Dir = apex_img_dir;
+</script>
+<script src="/i/libraries/apex/minified/desktop_all.min.js?v=4.2.5.00.08" type="text/javascript"></script>
+<script src="/i/libraries/apex/minified/legacy.min.js?v=4.2.5.00.08" type="text/javascript"></script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Pragma" content="no-cache" /><meta http-equiv="Expires" content="-1" /><meta http-equiv="Cache-Control" content="no-cache" />
+  <link rel="stylesheet" href="/i/themes/theme_4/css/theme_4_0.css" type="text/css" />
+
+</head>
+<body >
+
+<form action="wwv_flow.accept" method="post" name="wwv_flow" id="wwvFlowForm" novalidate >
+<input type="hidden" name="p_flow_id" value="114" id="pFlowId" /><input type="hidden" name="p_flow_step_id" value="39" id="pFlowStepId" /><input type="hidden" name="p_instance" value="12795915264300" id="pInstance" /><input type="hidden" name="p_page_submission_id" value="3905384674424" id="pPageSubmissionId" /><input type="hidden" name="p_request" value="" id="pRequest" />
+
+
+  <div class="rc-body"><div class="rc-body-r">
+<div class="rc-content-buttons"> <input type="button" value="Collapse All"onclick="apex.widget.tree.collapse_all(&#x27;tree23499421855907669&#x27;);" id="B23499814826907722"  /><a class="eLink" title="Edit" href="javascript:apex.navigation.popup.url('f?p=4000:381:10989988278258:::381:P381_ID,FB_FLOW_ID,FB_FLOW_PAGE_ID:23499814826907722,114,39');"><img src="/i/e.gif" alt="Edit" class="eLink" /></a> <input type="button" value="Expand All"onclick="apex.widget.tree.expand_all(&#x27;tree23499421855907669&#x27;);" id="B23500001487907731"  /><a class="eLink" title="Edit" href="javascript:apex.navigation.popup.url('f?p=4000:381:10989988278258:::381:P381_ID,FB_FLOW_ID,FB_FLOW_PAGE_ID:23500001487907731,114,39');"><img src="/i/e.gif" alt="Edit" class="eLink" /></a></div>
+<div class="rc-content-main"><style>
+
+
+
+<style>
+a:focus, a:active, a {
+    color: green;
+    font-size:small;
+}
+div {
+    margin-left: 1px;
+}
+</style>
+<script>
+function getfocus() {
+    document.getElementById("myAnchor").focus();
+}
+
+function losefocus() {
+    document.getElementById("myAnchor").blur();
+}
+</script><div id="tree23499421855907669"></div>
+
+<script type="text/javascript">
+var l23499421855907669Data = [
+{attributes:{"id":"0" , },data:{"title":"Primer", attributes:{}}, children: [ {attributes:{href:"#top","id":"1"},data:{"title":"Purpose", attributes:{}}},{attributes:{"id":"2"},data:{"title":"Introduction", attributes:{}}},{attributes:{"id":"3"},data:{"title":"Organizational Structure", attributes:{}}},{attributes:{"id":"4"},data:{"title":"Financial Structure", attributes:{}}, children: [ {attributes:{"id":"5"},data:{"title":"RDTE, Appropriation", attributes:{}}, children: [ {attributes:{"id":"6"},data:{"title":"Army Management Structure Code", attributes:{}}},{attributes:{"id":"10"},data:{"title":"Appropriation", attributes:{}}},{attributes:{"id":"11"},data:{"title":"Budget Activity", attributes:{}}},{attributes:{"id":"12"},data:{"title":"Program Element", attributes:{}}},{attributes:{"id":"13"},data:{"title":"Project", attributes:{}}},{attributes:{"id":"14"},data:{"title":"Task", attributes:{}}},{attributes:{"id":"20"},data:{"title":"Management Decision Package", attributes:{}}} ] },{attributes:{"id":"21"},data:{"title":"Operations and Maintenance", attributes:{}}},{attributes:{"id":"22"},data:{"title":"Reimbursable Customer Funds", attributes:{}}},{attributes:{"id":"23"},data:{"title":"Direct Cite Funds", attributes:{}}},{attributes:{"id":"24"},data:{"title":"Overhead", attributes:{}}} ] },{attributes:{"id":"25"},data:{"title":"Recurring Financial Processes", attributes:{}}, children: [ {attributes:{"id":"26"},data:{"title":"Program and Budget Processes", attributes:{}}, children: [ {attributes:{"id":"27"},data:{"title":"POM", attributes:{}}},{attributes:{"id":"28"},data:{"title":"RDDS", attributes:{}}},{attributes:{"id":"29"},data:{"title":"PSM Charts ", attributes:{}}},{attributes:{"id":"30"},data:{"title":"e-Gov", attributes:{}}},{attributes:{"id":"31"},data:{"title":"OMA Summit", attributes:{}}} ] },{attributes:{"id":"32"},data:{"title":"Funds Disto, Exec, Report", attributes:{}}, children: [ {attributes:{"id":"33"},data:{"title":"Funds Distribution", attributes:{}}},{attributes:{"id":"34"},data:{"title":"Execution Reporting", attributes:{}}} ] } ] },{attributes:{"id":"35"},data:{"title":"Appendices", attributes:{}}, children: [ {attributes:{"id":"36"},data:{"title":"Appendix A - Directorate Descriptions", attributes:{}}},{attributes:{"id":"37"},data:{"title":"Appendix B - Program and Budget Office Briefing ", attributes:{}}},{attributes:{"id":"38"},data:{"title":"Appendix C - Budget Activity Definitions", attributes:{}}},{attributes:{"id":"39"},data:{"title":"Appendix D - Program Elements, Projects, Tasks by Directorate", attributes:{}}},{attributes:{"id":"40"},data:{"title":"Appendix E - Sample Task Description", attributes:{}}},{attributes:{"id":"41"},data:{"title":"Appendix F - Management Decision Package Definitions", attributes:{}}},{attributes:{"id":"42"},data:{"title":"Appendix G - Sample OMA Summit Submission", attributes:{}}},{attributes:{"id":"43"},data:{"title":"Appendix H - Sample ARL Program Objective Memorandum (POM) Brief", attributes:{}}},{attributes:{"id":"44"},data:{"title":"Appendix I - Sampel R\u0026amp;D Descriptive Summary (R2a)", attributes:{}}},{attributes:{"id":"45"},data:{"title":"Appendix J - Sample Professional Staff Member Charts", attributes:{}}},{attributes:{"id":"46"},data:{"title":"Appendix K - OMA  Funding", attributes:{}}} ]}  ]}  ] ;
+</script>
+
+
+
+<script type="text/javascript" src="/i/libraries/jquery-jstree/0.9.9a2/apex.jquery.tree.min.js"></script>
+<script type="text/javascript" src="/i/libraries/apex/minified/widget.tree.min.js?v=4.2.5.00.08"></script>
+<script type="text/javascript">
+function popupSessionInfo(){var w = open("f?p=4000:34:10989988278258:PAGE:NO:34:F4000_P34_SESSION,F4000_P34_FLOW,F4000_P34_PAGE,FB_FLOW_ID:12795915264300,114,39,114","winLov","Scrollbars=1,resizable=1,width=700,height=450");if (w.opener == null){w.opener = self;}w.focus();}
+function popupViewDebug(){var w = open("f?p=4000:19:10989988278258:::RIR,19:IR_APPLICATION_ID,IR_PAGE_ID:114,39","winLov","Scrollbars=1,resizable=1,width=700,height=450");if (w.opener == null){w.opener = self;}w.focus();}
+apex.jQuery( document ).ready( function() {
+(function(){apex.widget.tree.init("tree23499421855907669", apex.widget.tree.cTreeTypes, l23499421855907669Data,"apple","0","S","");})();
+(function(){if(apex.storage.getCookie('ORA_WWV_QUICK_EDIT') != null){if(apex.storage.getCookie('ORA_WWV_QUICK_EDIT') == 'SHOW'){quickLinks('SHOW');}}})();
+
+
+});</script>
+
+
+</br>
+</body>
+</html>
