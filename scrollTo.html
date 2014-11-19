@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" class="js">
+<head>
+
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+  <script async="" src="?cf_action=sync_comments&amp;post_id=331"></script><script src="http://code.jquery.com/jquery.min.js" type="text/javascript"></script>
+  <link rel="shortcut icon" href="http://static.jquery.com/favicon.ico" type="image/x-icon">
+  <style>
+  	#jq-primaryContent { float:left; width:560px !important; }
+  	#jq-content { padding:5px; }
+  </style>
+</head>
+<body id="jq-interior" class="api-jquery-com single jq-enhanced">
+ <div id="jq-content" class="jq-clearfix">
+  <div id="jq-primaryContent">
+    <div id="content">
+   
+   
+<div class="demo code-demo">
+<style>
+		#demo1 { position:relative; height:350px; }
+		#demo-nav { position:absolute; top:5px; margin:5px; }
+		#demo-nav span { font-size:12px; }
+		#demo-stage { position:relative; display:block; top:40px; background:#fff; height:300px; overflow:auto; }
+		#demo-stage li, #demo-stage li h3 { color:#777; }
+		#demo-stage li.active, #demo-stage li.active h3 { color:#000; }
+</style>
+<script>
+$(function() {
+/*!
+ * jQuery - .scrollTo()
+ *
+ *  Author:
+ *  Timothy A. Perez
+ *
+ * Date: OCT 2012
+ * Comments: Setting new web standards...
+ */
+	// .scrollTo - Plugin
+	$.fn.scrollTo = function( target, options, callback ){
+	  if(typeof options == 'function' && arguments.length == 2){ callback = options; options = target; }
+	  var settings = $.extend({
+		scrollTarget  : target,
+		offsetTop     : 50,
+		duration      : 500,
+		easing        : 'swing'
+	  }, options);
+	  return this.each(function(){
+		var scrollPane = $(this);
+		var scrollTarget = (typeof settings.scrollTarget == "number") ? settings.scrollTarget : $(settings.scrollTarget);
+		var scrollY = (typeof scrollTarget == "number") ? scrollTarget : scrollTarget.offset().top + scrollPane.scrollTop() - settings.offsetTop;
+		scrollPane.animate({scrollTop : scrollY }, settings.duration, settings.easing, function(){
+		  if (typeof callback == 'function') { callback.call(this); }
+		});
+	  });
+	}
+	
+	// [start] Demo Code //
+	var $chapters = $('#demo-stage').find('ul').children('li');
+	var $chScrollPositions = new Array();
+	
+	// Cache Scroll Positions for Each Chapter
+	$chapters.each(function(i){
+		$chScrollPositions[i] = Math.round($(this).offset().top - $('#demo-stage').offset().top) - 10;
+	});
+	$chapters.eq(0).addClass('active'); // Set First Chapter Active on Start
+	
+	$('#demo-nav > nav > button').click(function(){
+		var last = $chapters.parent().find('li.active').removeClass('active').index();
+		var next;
+		
+		switch($(this).index()){
+			case 1:	// Action - Next Chapter
+				next = (last + 1 == $chapters.length) ? 0 : last + 1; // Loop around to first chapter
+			break;
+			case 2:	// Action - Last Chapter
+				next = $chapters.length - 1;
+			break;
+			case 3:	// Action - First Chapter
+				next = 0;
+			break;
+		}
+		$chapters.eq(next).addClass('active'); // Set Next Chapter Active
+		$('#demo-stage').scrollTo($chScrollPositions[next]);
+	});
+	// [end] Demo Code //
+});
+</script>
+<div id="demo1">
+	<section id="demo-nav">
+		<nav>
+			<span>Scroll To: </span>
+			<button class="next">Next Chapter</button>
+			<button class="last">Last Chapter</button>
+			<button class="first">First Chapter</button>
+		</nav>
+	</section>
+	<section id="demo-stage" class="jq-clearfix">
+		<ul>
+			<li><h3>Chapter 1</h3> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut lorem ipsum. Aenean ut mauris dolor, quis interdum neque. Maecenas consectetur lorem et mi viverra viverra. Etiam vel lorem sagittis quam consequat convallis. Ut pellentesque neque eu sem vulputate nec vestibulum nisi lobortis. </p></li>
+			<li><h3>Chapter 2</h3> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut lorem ipsum. Aenean ut mauris dolor, quis interdum neque. Maecenas consectetur lorem et mi viverra viverra. Etiam vel lorem sagittis quam consequat convallis. Ut pellentesque neque eu sem vulputate nec vestibulum nisi lobortis. </p></li>
+			<li><h3>Chapter 3</h3> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut lorem ipsum. Aenean ut mauris dolor, quis interdum neque. Maecenas consectetur lorem et mi viverra viverra. Etiam vel lorem sagittis quam consequat convallis. Ut pellentesque neque eu sem vulputate nec vestibulum nisi lobortis. </p></li>
+			<li><h3>Chapter 4</h3> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut lorem ipsum. Aenean ut mauris dolor, quis interdum neque. Maecenas consectetur lorem et mi viverra viverra. Etiam vel lorem sagittis quam consequat convallis. Ut pellentesque neque eu sem vulputate nec vestibulum nisi lobortis. </p></li>
+			<li><h3>Chapter 5</h3> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut lorem ipsum. Aenean ut mauris dolor, quis interdum neque. Maecenas consectetur lorem et mi viverra viverra. Etiam vel lorem sagittis quam consequat convallis. Ut pellentesque neque eu sem vulputate nec vestibulum nisi lobortis. </p></li>
+			<li><h3>Chapter 6</h3> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut lorem ipsum. Aenean ut mauris dolor, quis interdum neque. Maecenas consectetur lorem et mi viverra viverra. Etiam vel lorem sagittis quam consequat convallis. Ut pellentesque neque eu sem vulputate nec vestibulum nisi lobortis. </p></li>
+			<li><h3>Chapter 7</h3> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut lorem ipsum. Aenean ut mauris dolor, quis interdum neque. Maecenas consectetur lorem et mi viverra viverra. Etiam vel lorem sagittis quam consequat convallis. Ut pellentesque neque eu sem vulputate nec vestibulum nisi lobortis. </p></li>
+			<li><h3>Chapter 8</h3> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut lorem ipsum. Aenean ut mauris dolor, quis interdum neque. Maecenas consectetur lorem et mi viverra viverra. Etiam vel lorem sagittis quam consequat convallis. Ut pellentesque neque eu sem vulputate nec vestibulum nisi lobortis. </p></li>
+			<li><h3>Chapter 9</h3> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut lorem ipsum. Aenean ut mauris dolor, quis interdum neque. Maecenas consectetur lorem et mi viverra viverra. Etiam vel lorem sagittis quam consequat convallis. Ut pellentesque neque eu sem vulputate nec vestibulum nisi lobortis. </p></li>
+			<li><h3>Chapter 10</h3> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut lorem ipsum. Aenean ut mauris dolor, quis interdum neque. Maecenas consectetur lorem et mi viverra viverra. Etiam vel lorem sagittis quam consequat convallis. Ut pellentesque neque eu sem vulputate nec vestibulum nisi lobortis. </p></li>
+		</ul>
+		<div class="jq-clearfix"></div>
+	</section>
+</div>
+<!--	<iframe src="/index-blank.html" width="565" height="125" style="border: none;"></iframe> -->
+</div>
+</div>
+</div>
+</div>
+</div>
+        </div>
+      </div><!-- .post -->
+    </div><!-- #content -->
+  </div><!-- #jq-primaryContent -->
+  <!-- #jq-interiorNavigation -->
+  </div><!-- /#secondaryNavigation -->
+  <script src="http://static.jquery.com/api/prettify.js"></script>
+</body>
+</html>
